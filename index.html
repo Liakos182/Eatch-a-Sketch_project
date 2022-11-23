@@ -5,20 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles.css">
-    <title>Document</title>
-    <script src="../Eatch-a-Sketch_project/script.js"></script>
+    <script src="../Eatch-a-Sketch_project/script.js" defer></script>
+    <title>Etch-A-Sketch!</title>
 </head>
 <body>
     <!--This is the etch a scetch body,static elements-->
     <div class="body-outline">
-        <div class="top-part"></div>
+        <div class="top-part">
+            <h1 class="logo">Etch-A-Sketch</h1>
+        </div>
         <div class="mid-section">
             <div class="leftside"></div>
-            <div class="container"></div>
+            <div id="container"></div>
             <div class="rightside"></div>
     </div>
         <div class="bottom-part">
-
+            <button class="button" id = "left-button">Pixel mode</button>
+            <input id="reso" type="range" min="16" max="100" defaultvalue="30">
+            <button class="button" id = "right-button">Clear</button>
         </div>
     </div>
     

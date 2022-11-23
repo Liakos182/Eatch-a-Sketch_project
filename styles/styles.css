@@ -3,7 +3,9 @@
     margin:0;
     box-sizing: border-box;
     background-color: teal;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 /* These elements are the actual body of the etch a sketch,they are static*/
 .body-outline{
     height: 600px;
@@ -18,6 +20,9 @@
     background-color: #ff0000;
     border-top-left-radius: 10%;
     border-top-right-radius: 10%;
+    display: flex;
+    justify-content: center;
+    
 }
 .mid-section{
     width: 800px;
@@ -37,13 +42,44 @@
     background-color: red;
 
 }
-.container{
+#container{
     width: 660px;
     height: 460px;
     background-color: #FFFAFA;
+    display: grid;
 }
 .bottom-part{
     height: 70px;
     width: 800px;
     background-color: red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
+.logo{
+    
+    background-color: red;
+    color:gold;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+.button{
+    background-color: red;
+    border: 2px;
+    border-style:ridge;
+    border-color: black;
+    height: 20px;
+    width: 100px;
+}
+#reso{
+    align-self: flex-end;
+}
+.pixel{
+    background-color: snow;
+}
+.across{
+    background: snow;
+    display: flex;
+    justify-content: space-evenly;
+}
+
