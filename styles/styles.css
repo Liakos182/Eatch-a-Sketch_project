@@ -74,12 +74,13 @@
 #reso{
     align-self: flex-end;
 }
-.pixel{
-    background-color: snow;
-}
-.across{
-    background: snow;
-    display: flex;
-    justify-content: space-evenly;
-}
 
+.resolution{
+    background-color: #ff0000;
+    display: flex;
+    flex-direction: column;
+}
+#display{
+    text-align: center;
+    background-color: #ff0000;
+}
